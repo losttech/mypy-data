@@ -453,7 +453,7 @@ class ndarray(_ArrayLike[_S], Generic[_S]):
 # Array creation routines
 #
 
-def array(object: Any, dtype: Any=None, copy: bool=True,
+def array(object: Any, dtype: Any=None, *, copy: bool=True,
           order: str=None, subok: bool=False,
           ndmin: int=0) -> ndarray[Any]: ...
 def asarray(a: Any, dtype: DtypeType=None, order: str=None) -> ndarray[Any]: ...
