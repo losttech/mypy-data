@@ -492,3 +492,6 @@ def save(file: str, array: _ArrayLike, allow_pickle: bool=True, fix_imports: boo
 
 # Specific values
 inf: float
+
+# numpy re-exports these built-in types
+from builtins import bool, float, int, object, str
