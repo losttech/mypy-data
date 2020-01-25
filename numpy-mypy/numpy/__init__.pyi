@@ -57,7 +57,7 @@ _V = TypeVar('_V')
 # Auxiliary types
 #
 
-ShapeType = Union[int, Tuple[int, ...]]
+ShapeType = Union[int, Sequence[int]]
 AxesType = Union[int, Tuple[int, ...]]
 OrderType = Union[str, Sequence[str]]
 DtypeType = Union[dtype, type]
